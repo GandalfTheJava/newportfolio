@@ -1,0 +1,7 @@
+@import './Global.Mixins.scss';
+
+.App{
+    @include flex(column);
+    min-height:100vh;
+    margin:2px;
+}
